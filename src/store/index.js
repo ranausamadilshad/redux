@@ -13,7 +13,7 @@ const sliceCounter=createSlice({
            state.counter = state.counter - 1;
         },
         increase(state, action) {
-            state.counter=state.counter + action.amount
+            state.counter=state.counter + action.payload
          },
         showToggle(state) {
             state.showCounter = !state.showCounter;
