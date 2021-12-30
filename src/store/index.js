@@ -58,6 +58,8 @@ const sliceCounter=createSlice({
 
 // const store= createStore(counterReducer)
 
+export const counterActions = sliceCounter.actions;
+
 const store = configureStore({
     reducer:sliceCounter.reducer
 })
